@@ -1,0 +1,200 @@
+
+/*****************************************MOVIEHEADER CSS*******************************/
+.Movie__header{
+    margin-left: 100px;
+}
+.Movies__mainheader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-left: 100px;
+    /* margin-top: 240px; */
+  
+}
+.Movies__mainheader-container_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+    height: 100vh;
+    background-image: url("../../assets/Movies.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    line-height: 90px;
+}
+.Movies__mainheader-container_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.65);
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.Movies__mainheader-container_text h3{
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins", sans serif;
+    font-size:39px;
+    font-weight: 600;
+    /* margin-left: 130px; */
+    
+}
+.Movies__mainheader-container_text h1{
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins", sans serif;
+    font-size:89px;
+    font-weight: 900;
+    margin-top: -1.5rem;
+}
+.Movies__mainheader-container_text p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins", sans serif;
+    font-size:19px;
+    font-weight: 400;
+    margin-top: 2rem;
+
+}
+.Movies__header-content-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    margin-top: 90px;
+   
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 2px 4px 67px rgba(0,0,0,0.9);
+
+
+}
+.Movies__header-content-button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+/********************************************* FEATURE CSS **************************************************/
+.Movies__feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    
+}
+.Movies__feature-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.10);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+     border: 1px solid rgba(255, 255, 255, 0.9);
+}
+.Movies__feature-container-kids{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Movies__feature-container-kids img{
+    width: 30%;
+    height: 30%;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.Movies__feature-container-text{
+    margin: 90px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+/****************************************Movies*******************************************/
+
+.Movie__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Movie__header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.Movie__header-text h1{
+    font-size: 60px;
+}
+.Movie__header-text p{
+    font-size: 20px;
+}
+.Movie__header-Container{
+    display: flex;
+}
+.Movie__header-img img{
+    width: 300px;
+    height: 400px;
+    margin: 60px;
+    border-radius: 10px;
+}
+.Movie__content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+}
+.Movie__content-text h1{
+    font-size: 40px;
+}
+.Movie__content-text a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    background: transparent;
+    color:black;
+    width:80px;
+    height: 30px;
+    text-align: center;
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.Movie__content-text a:hover{
+    background: black;
+    color: white;
+}
+.Movies__Banner{
+    display: flex;
+    justify-content: center;
+}
+.Movies__Banner img{
+    width: 1579px;
+    height: 476px;
+    background-repeat: none;
+    background-size: cover;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}

@@ -1,0 +1,202 @@
+.Contacts__mainheader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 240px; */
+  
+}
+.Contacts__mainheader-container_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+    height: 100vh;
+    background-image: url("../../assets/Contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    line-height: 90px;
+}
+.Contacts__mainheader-container_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.65);
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.Contacts__mainheader-container_text h3{
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins", sans serif;
+    font-size:30px;
+    font-weight: 500;
+    /* margin-left: 130px; */
+    
+}
+.Contacts__mainheader-container_text h1{
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins", sans serif;
+    font-size:89px;
+    font-weight: 900;
+    margin-top: -1.5rem;
+}
+
+.Contacts__header-content-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    margin-top: 90px;
+   
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 2px 4px 67px rgba(0,0,0,0.9);
+
+
+}
+.Contacts__header-content-button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+
+
+/************************************************************************************/
+
+
+
+.Contact__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins", sans-serif;
+}
+.Contact__header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 80px;
+    width: 150%;
+}
+.Contact__header-container-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 40px;
+    line-height: 50px;
+}
+.Contact__header-container-header h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    color: #000000;
+    font-size: 70px;
+
+ 
+}
+.Contact__header-container-header p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    color: #000000;
+    font-size: 20px;
+    margin-left: 7px;
+}
+.Contact__header-form label{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.Contact__header-container-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.Contact__header-container-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 30px;
+    font-size: 16px;
+    margin-left: 40px;
+}
+ 
+.Contact__header-container-form input{
+    width: 350%;
+    height: 35px;
+    background-color: #F6F3F3 ;
+    border-radius: 10px;
+    border: none;
+
+   
+}
+.Contact__header-container-form input:last-child{
+    width: 350%;
+    height: 160px;
+}
+::placeholder{
+    padding: 10px; 
+  
+}
+::placeholder:last-child{
+    display: flex;
+   align-self: flex-start;
+}
+#comment{
+    font-size: 60px;
+}
+.Contact__header-container-form button{
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    background: transparent;
+    width: 130px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 45px;
+    
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+    display: flex;
+}
+   
+.Contact__header-container-form button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+
+.Contact__header-container-img img{
+    width: 80%;
+    height: 60%;
+}
+.Contact__header-container-icons-social img{
+    width: 60px;
+    height: 60px;
+}

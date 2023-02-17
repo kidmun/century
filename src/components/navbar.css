@@ -1,0 +1,101 @@
+.Navbar__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+     border: 1px solid rgba(255, 255, 255, 0.9);
+
+
+}
+
+.Navbar__container-logo{
+    display: flex;
+    align-items: center;
+    
+}
+.Navbar__container-logo img{
+    width: 140px;
+    height: 70px;  
+    margin-left: 60px;   
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.Navbar__container-links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 60px;
+    
+}
+.Navbar__container-links a{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.Navbar__container-links a:hover{
+    border: 3px solid black;
+    border-radius: 30px;
+    width: 80px;
+    padding: 9px;
+    color: rgb(0, 0, 0);
+    border: 3px solid black;
+    transform: none;
+    transition: width 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}     
+    
+.Navbar__container-button{
+    display: none;
+}
+.Nav__header-content-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-right: -350px;
+    border: 3px solid black;
+    border-radius: 30px;
+    width: 80px;
+    height: 10px;
+    padding: 9px;
+}
+.Nav__header-content-log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-right: 40px;
+    border: 3px solid black;
+    border-radius: 30px;
+    width: 80px;
+    height: 10px;
+    padding: 9px;
+}
+.Nav__header-content-sign:hover{
+    background: black;
+    color: rgb(255, 255, 255);
+    transform: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Nav__header-content-log:hover{
+    background: black;
+    color: rgb(255, 255, 255);
+    border: 3px solid black;
+    transform: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

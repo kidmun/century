@@ -1,0 +1,163 @@
+
+/*************************************ShopHeader CSS *************************************/
+.Shop__mainheader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 240px; */
+  
+}
+.Shop__mainheader-container_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+    height: 100vh;
+    background-image: url("../../assets/Shopheader.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    line-height: 90px;
+}
+.Shop__mainheader-container_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.65);
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.Shop__mainheader-container_text h3{
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins", sans serif;
+    font-size:39px;
+    font-weight: 600;
+    /* margin-left: 130px; */
+    
+}
+.Shop__mainheader-container_text h1{
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins", sans serif;
+    font-size:89px;
+    font-weight: 900;
+    margin-top: -1.5rem;
+}
+.Shop__mainheader-container_text p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins", sans serif;
+    font-size:19px;
+    font-weight: 400;
+    margin-top: 2rem;
+
+}
+.Shop__header-content-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    margin-top: 90px;
+   
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 2px 4px 67px rgba(0,0,0,0.9);
+
+
+}
+.Shop__header-content-button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+/*************************************Deals CSS *************************************/
+
+
+.Deal__container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+   
+}
+.Deal__header{
+    font-size: 30px;
+    margin-top: 30px;
+    
+}
+.Deal__container-header01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    width: 30%;
+    
+   
+}
+.Deal__container-header{
+    margin-left: 80px;
+    
+}
+.Deal__container-header img{
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+}
+.Deal__container-header-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+}
+.Deal__container-header-heading p{
+    margin-left: -10px;
+}
+.Deal__container-header-heading h1{
+    font-weight: 500;
+}
+.Deal__container-header-subheading h3 ,h4{
+    font-weight: 300;
+}
+.Deal__container-header a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: 1px solid black;
+    border-radius: 40px;
+    background: black;
+    color: white;
+    width: 50%;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.Deal__container-header a:hover{
+    border: 1px solid black;
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    background: transparent;
+}
+
+
+/**********************************Banner***********************************************/
+.Shop__container img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}

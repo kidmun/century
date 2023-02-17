@@ -1,0 +1,179 @@
+.About__mainheader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 240px; */
+  
+}
+.About__mainheader-container_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+    height: 100vh;
+    background-image: url("../../assets/About.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    line-height: 90px;
+}
+.About__mainheader-container_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.65);
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.About__mainheader-container_text h3{
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins", sans serif;
+    font-size:39px;
+    font-weight: 600;
+    /* margin-left: 130px; */
+    
+}
+.About__mainheader-container_text h1{
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins", sans serif;
+    font-size:89px;
+    font-weight: 900;
+    margin-top: -1.5rem;
+}
+.About__mainheader-container_text p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins", sans serif;
+    font-size:19px;
+    font-weight: 400;
+    margin-top: 2rem;
+
+}
+.About__header-content-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    margin-top: 90px;
+   
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 2px 4px 67px rgba(0,0,0,0.9);
+
+
+}
+.About__header-content-button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+
+
+/*********************************************AboutUs and FAQs ******************************/
+
+.About__container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.About__container-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.About__container-Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.About__container-header_faqs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.About__container-header_faqs h1{
+   margin-bottom: 10px;
+}
+.About__container-header_faqs p{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+
+}
+.About__container-Header h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.About__container-Header p{
+    margin-left: 450px;
+    margin-right: 450px;
+    text-align: center;
+}
+.About_faqs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+    
+}
+
+.About__container-faqs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.About__container-title{
+    background: rgba(0, 0, 0, 0.077);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+     border: 1px solid rgba(255, 255, 255, 0.9);
+     width: 400px;
+     height: 200px;
+     margin-right:70px;
+
+}
+
+.About__container-faqs h1{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  
+}
+.About__container-faqs p{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: start;
+   
+}
